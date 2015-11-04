@@ -1,0 +1,9 @@
+E:\Documentos\Business Process Analyser\BPM Analyser\GraphClassLibrary\bin\Release\GraphClassLibrary.dll
+E:\Documentos\Business Process Analyser\BPM Analyser\GraphClassLibrary\bin\Release\GraphClassLibrary.pdb
+E:\Documentos\Business Process Analyser\BPM Analyser\GraphClassLibrary\obj\Release\GraphClassLibrary.dll
+E:\Documentos\Business Process Analyser\BPM Analyser\GraphClassLibrary\obj\Release\GraphClassLibrary.pdb
+C:\Users\juanc\Documents\Visual Studio 2015\Projects\GrahpCSharpLibrary\GraphClassLibrary\bin\Release\GraphClassLibrary.dll
+C:\Users\juanc\Documents\Visual Studio 2015\Projects\GrahpCSharpLibrary\GraphClassLibrary\bin\Release\GraphClassLibrary.pdb
+C:\Users\juanc\Documents\Visual Studio 2015\Projects\GrahpCSharpLibrary\GraphClassLibrary\obj\Release\GraphClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\juanc\Documents\Visual Studio 2015\Projects\GrahpCSharpLibrary\GraphClassLibrary\obj\Release\GraphClassLibrary.dll
+C:\Users\juanc\Documents\Visual Studio 2015\Projects\GrahpCSharpLibrary\GraphClassLibrary\obj\Release\GraphClassLibrary.pdb
