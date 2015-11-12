@@ -12,7 +12,7 @@ myGraph.addVertex("003", new Uri("http://github.com"));
 ```
 ![Vertexs](https://github.com/juancarlosgras/GrahpC-Library/blob/master/graph1.png)
 
-Creating relations (edges) between vertices.
+Creating relations (edges) between vertexs.
 ```c#
 myGraph.addEdge("Edge 1", "001", "003");
 myGraph.addEdge(2, "002", "003");
