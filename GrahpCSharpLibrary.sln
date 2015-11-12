@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphClassLibrary", "GraphClassLibrary\GraphClassLibrary.csproj", "{A891339B-E2E3-41F8-B7DA-8AC5E20065AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrahpTestProject", "GrahpTestProject\GrahpTestProject.csproj", "{441A6D38-3B5E-4136-968E-70705194F6D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A891339B-E2E3-41F8-B7DA-8AC5E20065AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A891339B-E2E3-41F8-B7DA-8AC5E20065AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A891339B-E2E3-41F8-B7DA-8AC5E20065AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441A6D38-3B5E-4136-968E-70705194F6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441A6D38-3B5E-4136-968E-70705194F6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441A6D38-3B5E-4136-968E-70705194F6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441A6D38-3B5E-4136-968E-70705194F6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

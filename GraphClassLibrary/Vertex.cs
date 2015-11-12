@@ -10,39 +10,33 @@ namespace GraphClassLibrary
     /// </summary>
     public class Vertex
     {
-        //Fields and Properties
         /// <summary>
         /// Vertex Information
         /// </summary>
         public Object Info { get ; set ; }
 
-        
         /// <summary>
         /// Vertex Key Identification
         /// </summary>
         public String Key { get; set ; }
 
-        private List<Edge> edgeList; //arcos que salen del vertice
-
         /// <summary>
         /// Edges leaving the vertex
         /// </summary>
-        public List<Edge> EdgeList { get { return edgeList; } }
-
-        //Methods
+        public List<Edge> EdgeList { get; set; }
 
         public Vertex(String key, Object info)
         {
             this.Info = info;
             this.Key = key;
-            this.edgeList = new List<Edge>();
+            this.EdgeList = new List<Edge>();
         }
 
         public bool isAdjacent(Vertex vertex)
         {
             foreach (Edge found in this.EdgeList)
             {
-                if (found.Vertex != null)// por si este arco no apunta a ningun vertice
+                if (found.Vertex != null)
                 {
                     if (found.Vertex.Equals(vertex))
                         return true;
@@ -62,7 +56,7 @@ namespace GraphClassLibrary
             return false; 
         }
 
-        public bool deleteEdge(Vertex vertex) //vertex es el vertice a que apunta el arco que se quiere eliminar
+        public bool deleteEdge(Vertex vertex)
         {
             foreach (Edge theEdge in EdgeList)
             {
@@ -75,7 +69,7 @@ namespace GraphClassLibrary
             return false;
         }
 
-        public void deleteAllEdges() //elimina todos los arcos que salen de este vertice
+        public void deleteAllEdges()
         {
             this.EdgeList.Clear();
         } 

@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-//************************
-//by Juan Carlos Grass
-//Lista adjasencia
-//************************
+//*****************************************************************************************
+//The MIT License(MIT)
+//Copyright(c) 2015 Juan Carlos Gras
+//*****************************************************************************************
 
 namespace GraphClassLibrary
 {
@@ -45,10 +44,10 @@ namespace GraphClassLibrary
         }
 
         /// <summary>
-        /// Adiciona un vertice al grafo
+        /// Adds a vertex to the graph
         /// </summary>
-        /// <param name="pVertexKey"> Llave del vértice</param>
-        /// <param name="pInfo"> Objeto que contiene la información del vértice</param>
+        /// <param name="pVertexKey"> Vertex key</param>
+        /// <param name="pInfo"> Object containing vertex information</param>
         public void addVertex(String pVertexKey, Object pInfo)
         {
             Vertex vert = new Vertex(pVertexKey, pInfo);
@@ -56,11 +55,11 @@ namespace GraphClassLibrary
         }
 
         /// <summary>
-        /// Adiciona un arco entre dos vértices
+        /// Adds an arc between two vertexs
         /// </summary>
-        /// <param name="pEdgeInfo"> Objeto que contiene la información del arco</param>
-        /// <param name="ptailVertex"> Vértice de donde sale el arco</param>
-        /// <param name="pheadVertex"> Vértice de donde termina el arco</param>
+        /// <param name="pEdgeInfo"> Object containing edge information</param>
+        /// <param name="ptailVertex"> Vertex from where the arc</param>
+        /// <param name="pheadVertex"> Vertex where the arc ends</param>
         public bool addEdge(Object pEdgeInfo, Vertex ptailVertex, Vertex pheadVertex)
         {
             return ptailVertex.insertEdge(pEdgeInfo, pheadVertex);
@@ -69,9 +68,9 @@ namespace GraphClassLibrary
         /// <summary>
         /// Adiciona un arco entre dos vértices
         /// </summary>
-        /// <param name="pEdgeInfo"> Objeto que contiene la información del arco</param>
-        /// <param name="ptailVertexKey"> Llave del vértice de donde sale el arco</param>
-        /// <param name="pheadVertexKey"> Llave del vértice de donde termina el arco</param>
+        /// <param name="pEdgeInfo"> Object containing edge information</param>
+        /// <param name="ptailVertexKey"> Vertex's key from where the arc</param>
+        /// <param name="pheadVertexKey"> Vertex's key where the arc ends</param>
         public bool addEdge(Object pEdgeInfo, String ptailVertexKey, String pheadVertexKey)
         {
             return this.getVertex(ptailVertexKey).insertEdge(pEdgeInfo, this.getVertex(pheadVertexKey));
