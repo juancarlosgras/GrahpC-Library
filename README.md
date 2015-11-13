@@ -1,6 +1,7 @@
 # Grahp C# Library
 The project contains libraries for the management of directed graphs. In graph theory, a directed graph (or digraph) is a graph, or set of vertices connected by edges, where the edges have a direction associated with them. In formal terms, a directed graph is an ordered pair G = (V, E) with. [*Wikipedia](https://en.wikipedia.org/wiki/Directed_graph)
 # How to use
+From NuGet: Install-Package graphlibrary
 Creating the vertices of a graph.
 ```c#
 using GraphClassLibrary;
